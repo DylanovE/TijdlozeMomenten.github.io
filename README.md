@@ -1,8 +1,8 @@
 # TijdelozeMomenten
 
 Huidig werkend aan het project:
-Fleur Schmidt
-Dylano van Engelen
+Fleur Schmidt,
+Dylano van Engelen,
 Bram ...
 
 Vorige projectleden (gestopt ivm stage):

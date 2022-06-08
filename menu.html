@@ -1,0 +1,56 @@
+<div class="menubody" id="menubody" style="top: 0; left:0;">
+    <div class="menutxt">
+        <h1 class="white-txt c-font-size-jumbo c-hudson-bold-font">menu</h1>
+    </div>
+    <div class="exitmenu clickable" id="menuExitBtn">
+
+        <svg xmlns="http://www.w3.org/2000/svg" class="svgmenuexit" viewBox="0 0 21.778 21.778">
+            <path id="Icon_metro-cross" data-name="Icon metro-cross" d="M24.15,19.424h0l-6.607-6.607L24.15,6.21h0a.682.682,0,0,0,0-.962L21.029,2.127a.682.682,0,0,0-.962,0h0L13.46,8.734,6.853,2.127h0a.682.682,0,0,0-.962,0L2.77,5.248a.682.682,0,0,0,0,.962h0l6.607,6.607L2.77,19.424h0a.682.682,0,0,0,0,.962l3.121,3.121a.682.682,0,0,0,.962,0h0L13.46,16.9l6.607,6.607h0a.682.682,0,0,0,.962,0l3.121-3.121a.682.682,0,0,0,0-.962Z" transform="translate(-2.571 -1.928)" fill="#fff"/>
+          </svg>
+
+    </div>
+    <div class="menucontainer">
+        <div>
+            <h1 class="white-txt c-font-size-jumbo c-hudson-bold-font clickable" id="home">Home</h1>
+        </div>
+        <div>
+            <h1 class="white-txt c-font-size-jumbo c-hudson-bold-font clickable" id="Avonturen">Avonturen</h1>
+        </div>
+        <div>
+            <h1 class="white-txt c-font-size-jumbo c-hudson-bold-font clickable" id="Overmij">Over mij</h1>
+        </div>
+        <div>
+            <h1 class="white-txt c-font-size-jumbo c-hudson-bold-font clickable" id="Mijninitiatieven">Mijn initiatieven</h1>
+        </div>
+        <div>
+            <h1 class="white-txt c-font-size-jumbo c-hudson-bold-font clickable" id="Contact">Contact</h1>
+        </div>
+    </div>
+</div>
+<script>
+    const home = document.getElementById("home");
+    const Avonturen = document.getElementById("Avonturen");
+    const Overmij = document.getElementById("Overmij");
+    const Mijninitiatieven = document.getElementById("Mijninitiatieven");
+    const Contact = document.getElementById("Contact");
+
+    home.addEventListener("click", () => {
+        window.location.href = 'home.php';
+    });
+
+    Avonturen.addEventListener("click", () => {
+        window.location.href = 'Avonturen.php';
+    });
+
+    Overmij.addEventListener("click", () => {
+        window.location.href = 'Overmij.php';
+    });
+
+    Mijninitiatieven.addEventListener("click", () => {
+        window.location.href = 'Mijninitiatieven.php';
+    });
+
+    Contact.addEventListener("click", () => {
+        window.location.href = 'Contact.php';
+    });
+</script>

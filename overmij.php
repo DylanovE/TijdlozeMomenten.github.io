@@ -1,0 +1,104 @@
+<!doctype html>
+
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- website intro -->
+    <title>Tijdloze Momenten</title>
+    <meta name="description" content="Welkom bij Tijdeloze Momenten">
+    <meta name="author" content="SitePoint">
+
+    <!-- website icons -->
+    <link rel="apple-touch-icon" type="image/png" href="./assets/images/logo/favicon.png">
+
+    <link rel="icon" type="image/png" href="./assets/images/logo/favicon.png">
+
+    <!-- soial media cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Welkom bij Tijdeloze Momenten!">
+    <meta name="twitter:image" content="https://d36iur3orme9ke.cloudfront.net/wp-content/uploads/2016/06/blog_top-image_Open-Source-Photography.jpg">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Tijdeloze Momenten">
+    <meta property="og:title" content="Welkom bij Tijdeloze Momenten">
+    <meta property="og:image" content="./assets/images/twitter/sunset.png">
+    <meta property="og:url" content="http://www.tijdlozemomenten.nl/index.html">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/custom.css">
+
+    <!-- bootrap link v4.0.0 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<?php include 'menu.html'?>
+
+<body class="bg-black" style="overflow-x: hidden;" onload="function()">
+    <h1 class="c-font-size-small white-txt" style="font-weight:500; margin: margin: 0% 2% 1% 2%; position: absolute; ">Over mij</h1>
+    <div id="menuBtn" class="z-index position-absolute c-burgermenu clickable">
+        <svg class="svgmenu" viewBox="0 0 49.201 24">
+            <g id="Menu" transform="translate(3 3)">
+                <path id="Path_1423" data-name="Path 1423" d="M-12137.377-9972h42.858" transform="translate(12137.377 9972)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="6"/>
+                <path id="Path_1424" data-name="Path 1424" d="M-12137.377-9972h32.2" transform="translate(12148.377 9990)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="6"/>
+            </g>
+        </svg>
+    </div>
+    <div class="fullscreen">
+        <p class="white-txt c-font-size-jumbo2 c-hudson-bold-font" style="text-align: center; font-weight: bold;"><span class="lightblue">"</span>Voor mij betekend fotografie een confrontatie met mijn eigen oorsprong; een soort satelliet vlucht over ons menselijk verleden, het heden en onze toekomst.<span class="lightblue">"</span></p>
+        <h1 class="lightblue leesmeer c-horizontal-center">Lees meer</h1>
+    </div>
+    <div class="fullscreen" style="padding: 1% 0 1% 0;">
+        <img src="./assets/images/overmijfoto.webp" style="width: 100%; height: 100%;" />
+    </div>
+    <div style="width: 100vw; padding: 0 30% 0 5%;">
+        <p class="white-txt c-font-size-jumbo txtmargin15" style="font-weight:normal!important;">Na aanvankelijk 35 jaar uitermate succesvolle commerciële studio-fotografie voelde ik me 25 jaar terug “droog-gemolken” en samen met mijn vrouw vertrokken we voor een hernieuwde huwelijks-reis “noordwaarts”, waar ik – met haar permissie – opnieuw
+            verliefd werd. Op het landschap daar dit keer. Van het een kwam het ander en al snel was ik daar niet meer weg te slaan. Toen ook de eerste uitnodiging voor een Antarctica-expeditie binnen kwam, was het hek helemaal van de dam en inmid-dels
+            hebben mijn vrouw & ik 39 arctische/antarctische reizen in onze oude, koude botten zitten. Niet alleen een ongekend voorrecht, maar ook een fantastische levenservaring. Immers; een reis naar een van de polen is geen “vakantiereisje” maar een
+            retraite naar je eigen oorsprong.</p>
+        <p class="white-txt c-font-size-jumbo" style="font-weight:normal!important;">Voor mij betekend “fotografie” dus een confrontatie met mijn eigen oorsprong; een soort satelliet vlucht over “ons” menselijk verleden, het heden en onze toekomst. Een diepe overtuiging dat alles binnen dit universum in “evenwicht” dient te zijn
+            en hoe aantrekkelijk dat begrip “balans” ook klin-ken moge, het is tevens een gigantische belemmering. Vliegend rond deze immer ronddraaiende blauwe composthoop en constant naar beneden mogen kijken, zag ik slechts één grote gemene deler evenwicht:
+        </p>
+    </div>
+    <div class="fullscreen" style="height: 50vh;">
+        <p class="white-txt c-font-size-medium2 c-hudson-bold-font" style="text-align: center; font-weight: bold;"><span class="lightblue">"</span>evenveel honger als overvloed. Evenveel liefde als haat. Evenveel armoede als rijkdom. Evenveel oorlog als vrede.<span class="lightblue">"</span></p>
+    </div>
+    <div class="fullscreen" style="padding: 1% 0 1% 0;">
+        <img src="./assets/images/overmijfoto2.webp" style="width: 100%; height: 100%;" />
+    </div>
+
+    <div class="slider">
+        <div class="hwrap">
+            <div class="hmove">
+                <div class="hslide">
+                    <p class="white-txt c-font-size-medium"><span class="lightblue">"</span>Wim van Passel; de meester van het klassieke landschap<span class="lightblue">"</span></p>
+                    <h3 class="white-txt  c-font-size-medium" style="float: right;margin-right: 20%;">-Jan van Gelderen</h3>
+                </div>
+                <div class="hslide">
+                    <p class="white-txt c-font-size-medium"><span class="lightblue">"</span>dit is gewoon test text<span class="lightblue">"</span></p>
+                    <h3 class="white-txt  c-font-size-medium" style="float: right;margin-right: 20%;">-van jan</h3>
+                </div>
+                <div class="hslide">
+                    <p class="white-txt c-font-size-medium"><span class="lightblue">"</span>dit is gewoon test text 2<span class="lightblue">"</span></p>
+                    <h3 class="white-txt  c-font-size-medium" style="float: right;margin-right: 20%;">-kan ban</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+    <script>
+        const menuBtn = document.getElementById("menuBtn");
+        const menuExitBrn = document.getElementById("menuExitBtn");
+        var menu = document.getElementById("menubody");
+
+        menuBtn.addEventListener("click", () => {
+            menu.style.visibility = "visible";
+        });
+
+        menuExitBtn.addEventListener("click", () => {
+            menu.style.visibility = "hidden";
+        });
+    </script>
+</html>

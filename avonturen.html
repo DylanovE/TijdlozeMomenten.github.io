@@ -1,0 +1,134 @@
+<!doctype html>
+
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- website intro -->
+    <title>Tijdloze Momenten</title>
+    <meta name="description" content="Welkom bij Tijdeloze Momenten">
+    <meta name="author" content="SitePoint">
+
+    <!-- website icons -->
+    <link rel="apple-touch-icon" type="image/png" href="./assets/images/logo/favicon.png">
+
+    <link rel="icon" type="image/png" href="./assets/images/logo/favicon.png">
+
+    <!-- soial media cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Welkom bij Tijdeloze Momenten!">
+    <meta name="twitter:image" content="https://d36iur3orme9ke.cloudfront.net/wp-content/uploads/2016/06/blog_top-image_Open-Source-Photography.jpg">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Tijdeloze Momenten">
+    <meta property="og:title" content="Welkom bij Tijdeloze Momenten">
+    <meta property="og:image" content="./assets/images/twitter/sunset.png">
+    <meta property="og:url" content="http://www.tijdlozemomenten.nl/index.html">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/custom.css">
+
+    <!-- bootrap link v4.0.0 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--menu-->
+    <div class="menubody" id="menubody" style="top: 0; left:0;">
+        <div class="menutxt">
+            <h1 class="white-txt c-font-size-jumbo c-hudson-bold-font">menu</h1>
+        </div>
+        <div class="exitmenu clickable" id="menuExitBtn">
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="svgmenuexit" viewBox="0 0 21.778 21.778">
+            <path id="Icon_metro-cross" data-name="Icon metro-cross" d="M24.15,19.424h0l-6.607-6.607L24.15,6.21h0a.682.682,0,0,0,0-.962L21.029,2.127a.682.682,0,0,0-.962,0h0L13.46,8.734,6.853,2.127h0a.682.682,0,0,0-.962,0L2.77,5.248a.682.682,0,0,0,0,.962h0l6.607,6.607L2.77,19.424h0a.682.682,0,0,0,0,.962l3.121,3.121a.682.682,0,0,0,.962,0h0L13.46,16.9l6.607,6.607h0a.682.682,0,0,0,.962,0l3.121-3.121a.682.682,0,0,0,0-.962Z" transform="translate(-2.571 -1.928)" fill="#fff"/>
+          </svg>
+
+        </div>
+        <div class="menucontainer">
+            <div>
+                <h1 class="white-txt c-font-size-jumbo c-hudson-bold-font clickable" id="home">Home</h1>
+            </div>
+            <div>
+                <h1 class="white-txt c-font-size-jumbo c-hudson-bold-font clickable" id="Avonturen">Avonturen</h1>
+            </div>
+            <div>
+                <h1 class="white-txt c-font-size-jumbo c-hudson-bold-font clickable" id="Overmij">Over mij</h1>
+            </div>
+            <div>
+                <h1 class="white-txt c-font-size-jumbo c-hudson-bold-font clickable" id="Mijninitiatieven">Mijn initiatieven</h1>
+            </div>
+            <div>
+                <h1 class="white-txt c-font-size-jumbo c-hudson-bold-font clickable" id="Contact">Contact</h1>
+            </div>
+        </div>
+    </div>
+    <script>
+        const home = document.getElementById("home");
+        const Avonturen = document.getElementById("Avonturen");
+        const Overmij = document.getElementById("Overmij");
+        const Mijninitiatieven = document.getElementById("Mijninitiatieven");
+        const Contact = document.getElementById("Contact");
+
+        home.addEventListener("click", () => {
+            window.location.href = 'home.php';
+        });
+
+        Avonturen.addEventListener("click", () => {
+            window.location.href = 'Avonturen.php';
+        });
+
+        Overmij.addEventListener("click", () => {
+            window.location.href = 'Overmij.php';
+        });
+
+        Mijninitiatieven.addEventListener("click", () => {
+            window.location.href = 'Mijninitiatieven.php';
+        });
+
+        Contact.addEventListener("click", () => {
+            window.location.href = 'Contact.php';
+        });
+    </script>
+    <!--menu end-->
+
+
+
+    <div id="menuBtn" class="z-index position-absolute c-burgermenu clickable">
+        <svg xmlns="http://www.w3.org/2000/svg" class="svgmenu" viewBox="0 0 49.201 24">
+            <g id="Menu" transform="translate(3 3)">
+                <path id="Path_1423" data-name="Path 1423" d="M-12137.377-9972h42.858" transform="translate(12137.377 9972)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="6"/>
+                <path id="Path_1424" data-name="Path 1424" d="M-12137.377-9972h32.2" transform="translate(12148.377 9990)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="6"/>
+            </g>
+        </svg>
+    </div>
+    <div class="custom-row">
+        <div class="col-sm" id="part-one">
+            <h1 class="centeredtxt clickable c-font-size-jumbo c-hudson-bold-font ">text</h1>
+        </div>
+        <div class="col-sm" id="part-two">
+            <h1 class="centeredtxt clickable c-font-size-jumbo c-hudson-bold-font ">text</h1>
+        </div>
+        <div class="col-sm" id="part-three">
+            <h1 class="centeredtxt clickable c-font-size-jumbo c-hudson-bold-font ">text</h1>
+        </div>
+    </div>
+    <script>
+        const menuBtn = document.getElementById("menuBtn");
+        const menuExitBrn = document.getElementById("menuExitBtn");
+        var menu = document.getElementById("menubody");
+
+        menuBtn.addEventListener("click", () => {
+            menu.style.visibility = "visible";
+        });
+
+        menuExitBtn.addEventListener("click", () => {
+            menu.style.visibility = "hidden";
+        });
+    </script>
+</body>
+
+</html>

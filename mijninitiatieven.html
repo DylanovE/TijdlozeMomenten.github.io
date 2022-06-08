@@ -34,7 +34,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="bg-black" style="overflow-x: hidden;">
+
+
 
     <!--menu-->
     <div class="menubody" id="menubody" style="top: 0; left:0;">
@@ -97,38 +99,35 @@
 
 
 
+    <h1 class="c-font-size-small white-txt" style="font-weight:500; margin: 0% 2% 1% 2%; position: absolute; ">Mijn initiatieven</h1>
     <div id="menuBtn" class="z-index position-absolute c-burgermenu clickable">
-        <svg xmlns="http://www.w3.org/2000/svg" class="svgmenu" viewBox="0 0 49.201 24">
+        <svg class="svgmenu" viewBox="0 0 49.201 24">
             <g id="Menu" transform="translate(3 3)">
-                <path id="Path_1423" data-name="Path 1423" d="M-12137.377-9972h42.858" transform="translate(12137.377 9972)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="6"/>
-                <path id="Path_1424" data-name="Path 1424" d="M-12137.377-9972h32.2" transform="translate(12148.377 9990)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="6"/>
+                <path id="Path_1423" data-name="Path 1423" d="M-12137.377-9972h42.858" transform="translate(12137.377 9972)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="6"/>
+                <path id="Path_1424" data-name="Path 1424" d="M-12137.377-9972h32.2" transform="translate(12148.377 9990)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="6"/>
             </g>
         </svg>
     </div>
-    <div class="custom-row">
-        <div class="col-sm" id="part-one">
-            <h1 class="centeredtxt clickable c-font-size-jumbo c-hudson-bold-font ">text</h1>
-        </div>
-        <div class="col-sm" id="part-two">
-            <h1 class="centeredtxt clickable c-font-size-jumbo c-hudson-bold-font ">text</h1>
-        </div>
-        <div class="col-sm" id="part-three">
-            <h1 class="centeredtxt clickable c-font-size-jumbo c-hudson-bold-font ">text</h1>
-        </div>
+    <div class="">
+        <p class="white-txt c-font-size-XXL c-hudson-bold-font" style="font-weight: bold; margin: 1% 2% 1% 2%;">Mijn initiatieven</p>
     </div>
-    <script>
-        const menuBtn = document.getElementById("menuBtn");
-        const menuExitBrn = document.getElementById("menuExitBtn");
-        var menu = document.getElementById("menubody");
-
-        menuBtn.addEventListener("click", () => {
-            menu.style.visibility = "visible";
-        });
-
-        menuExitBtn.addEventListener("click", () => {
-            menu.style.visibility = "hidden";
-        });
-    </script>
+    <div class="fullscreen" style="padding: 1% 0 1% 0;">
+        <img src="./assets/images/overmijfoto.webp" style="width: 100%; height: 100%;" />
+    </div>
 </body>
+
+<script>
+    const menuBtn = document.getElementById("menuBtn");
+    const menuExitBrn = document.getElementById("menuExitBtn");
+    var menu = document.getElementById("menubody");
+
+    menuBtn.addEventListener("click", () => {
+        menu.style.visibility = "visible";
+    });
+
+    menuExitBtn.addEventListener("click", () => {
+        menu.style.visibility = "hidden";
+    });
+</script>
 
 </html>

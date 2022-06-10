@@ -330,7 +330,7 @@
 }
 
 .options input[type="radio"]:checked+label {
-    background: yellow;
+    background: darkblue;
 }
 
 .options label {
